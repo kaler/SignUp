@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class SignupViewController;
+
 @interface SignupAppDelegate : NSObject <UIApplicationDelegate> {
   UIWindow *window;
+  UINavigationController *navigationController;
+  SignupViewController *signupViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

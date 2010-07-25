@@ -1,5 +1,19 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* SignupAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1337, 868}}";
+			sepNavSelRange = "{444, 0}";
+			sepNavVisRange = "{0, 451}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SignupAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2228, 1425}}";
+			sepNavSelRange = "{697, 0}";
+			sepNavVisRange = "{0, 1745}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* Signup */ = {
 		activeExec = 0;
 		executables = (
@@ -10,13 +24,49 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 4E023B6711FBF70800C84EAF /* Signup */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Signup */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Signup */,
+		);
+		breakpoints = (
+		);
 		codeSenseManager = 4E023B7811FBF72A00C84EAF /* Code sense */;
 		executables = (
 			4E023B6711FBF70800C84EAF /* Signup */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1159,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
 			PBXPerProjectTemplateStateSaveDate = 301725448;
 			PBXWorkspaceStateSaveDate = 301725448;
+		};
+		perUserProjectItems = {
+			4E023BAC11FBFD1200C84EAF /* PBXTextBookmark */ = 4E023BAC11FBFD1200C84EAF /* PBXTextBookmark */;
+			4E023BAD11FBFD1200C84EAF /* PBXTextBookmark */ = 4E023BAD11FBFD1200C84EAF /* PBXTextBookmark */;
+			4E023BAE11FBFD1200C84EAF /* PBXTextBookmark */ = 4E023BAE11FBFD1200C84EAF /* PBXTextBookmark */;
+			4E023BAF11FBFD1200C84EAF /* PBXTextBookmark */ = 4E023BAF11FBFD1200C84EAF /* PBXTextBookmark */;
+			4E023BB011FBFD1200C84EAF /* PBXTextBookmark */ = 4E023BB011FBFD1200C84EAF /* PBXTextBookmark */;
+			4E023BB711FBFD3C00C84EAF /* PBXTextBookmark */ = 4E023BB711FBFD3C00C84EAF /* PBXTextBookmark */;
+			4E023BBD11FBFD5200C84EAF /* PBXTextBookmark */ = 4E023BBD11FBFD5200C84EAF /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4E023B7711FBF72A00C84EAF /* Source Control */;
 		userBuildSettings = {
@@ -29,7 +79,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -38,6 +88,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -45,9 +96,13 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = Signup;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	4E023B7711FBF72A00C84EAF /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -62,5 +117,89 @@
 	4E023B7811FBF72A00C84EAF /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	4E023B8F11FBFB8100C84EAF /* SignupViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1337, 868}}";
+			sepNavSelRange = "{233, 0}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	4E023B9011FBFB8100C84EAF /* SignupViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 1121}}";
+			sepNavSelRange = "{1046, 0}";
+			sepNavVisRange = "{225, 1197}";
+		};
+	};
+	4E023BAC11FBFD1200C84EAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4E023B9011FBFB8100C84EAF /* SignupViewController.m */;
+		name = "SignupViewController.m: 38";
+		rLen = 0;
+		rLoc = 1046;
+		rType = 0;
+		vrLen = 1197;
+		vrLoc = 225;
+	};
+	4E023BAD11FBFD1200C84EAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4E023B8F11FBFB8100C84EAF /* SignupViewController.h */;
+		name = "SignupViewController.h: 14";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	4E023BAE11FBFD1200C84EAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SignupAppDelegate.h */;
+		name = "SignupAppDelegate.h: 20";
+		rLen = 0;
+		rLoc = 444;
+		rType = 0;
+		vrLen = 451;
+		vrLoc = 0;
+	};
+	4E023BAF11FBFD1200C84EAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SignupAppDelegate.m */;
+		name = "SignupAppDelegate.m: 21";
+		rLen = 0;
+		rLoc = 539;
+		rType = 0;
+		vrLen = 1716;
+		vrLoc = 0;
+	};
+	4E023BB011FBFD1200C84EAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SignupAppDelegate.m */;
+		name = "SignupAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 1694;
+		vrLoc = 0;
+	};
+	4E023BB711FBFD3C00C84EAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SignupAppDelegate.m */;
+		name = "SignupAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 697;
+		rType = 0;
+		vrLen = 1740;
+		vrLoc = 0;
+	};
+	4E023BBD11FBFD5200C84EAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SignupAppDelegate.m */;
+		name = "SignupAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 697;
+		rType = 0;
+		vrLen = 1745;
+		vrLoc = 0;
 	};
 }

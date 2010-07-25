@@ -7,6 +7,7 @@
 //
 
 #import "SignupAppDelegate.h"
+#import "SignupViewController.h"
 
 @implementation SignupAppDelegate
 
@@ -16,10 +17,10 @@
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-  
-  // Override point for customization after application launch.
-	
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  signupViewController = [[SignupViewController alloc] initWithNibName:@"SignupViewController" bundle:nil];
+  navigationController = [[UINavigationController alloc] initWithRootViewController:signupViewController];
+  [window addSubview:[navigationController view]];
   [window makeKeyAndVisible];
 	
 	return YES;
