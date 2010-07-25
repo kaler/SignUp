@@ -45,6 +45,11 @@
     self.loadCell = nil;
   }
   
+  if (indexPath.row == 0)
+    cell.textField.placeholder = @"email";
+  else
+    cell.textField.placeholder = @"password";
+  
   return cell;
 }
 
