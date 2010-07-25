@@ -167,9 +167,9 @@
 	};
 	4E023B9011FBFB8100C84EAF /* SignupViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1337, 1273}}";
-			sepNavSelRange = "{809, 0}";
-			sepNavVisRange = "{281, 1222}";
+			sepNavIntBoundsRect = "{{0, 0}, {1120, 1368}}";
+			sepNavSelRange = "{629, 0}";
+			sepNavVisRange = "{422, 764}";
 		};
 	};
 	4E023BAC11FBFD1200C84EAF /* PBXTextBookmark */ = {
