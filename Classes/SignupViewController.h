@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SignupViewController : UIViewController {
-
+@interface SignupViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+  IBOutlet UITableView *tableView;
 }
+
+@property (nonatomic, retain) UITableView *tableView;
 
 @end

@@ -10,6 +10,7 @@
 
 
 @implementation SignupViewController
+@synthesize tableView;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -36,23 +37,31 @@
  }
  */
 
-- (void)didReceiveMemoryWarning {
-  // Releases the view if it doesn't have a superview.
-  [super didReceiveMemoryWarning];
-  
-  // Release any cached data, images, etc that aren't in use.
-}
-
 - (void)viewDidUnload {
   [super viewDidUnload];
-  // Release any retained subviews of the main view.
-  // e.g. self.myOutlet = nil;
+  self.tableView = nil;
 }
 
 
 - (void)dealloc {
+  [tableView release];
   [super dealloc];
 }
 
+#pragma mark TableViewDelegate
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView 
+{
+  return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section 
+{
+  return 0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
+{
+  return nil;
+}
 
 @end
