@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class TextEditCell;
 
 @interface SignupViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
   IBOutlet UITableView *tableView;
+  IBOutlet TextEditCell *loadCell;
 }
 
 @property (nonatomic, retain) UITableView *tableView;
+@property (nonatomic, retain) TextEditCell *loadCell;
 
 @end

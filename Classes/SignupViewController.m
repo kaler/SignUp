@@ -7,10 +7,10 @@
 //
 
 #import "SignupViewController.h"
-
+#import "TextEditCell.h"
 
 @implementation SignupViewController
-@synthesize tableView;
+@synthesize tableView, loadCell;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -56,12 +56,21 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section 
 {
-  return 0;
+  return 2;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
 {
-  return nil;
+  static NSString *CellIdentifier = @"TextEditCell";
+  TextEditCell *cell = (TextEditCell*)[self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+  if (cell == nil)
+  {
+    [[NSBundle mainBundle] loadNibNamed:@"TextEditCell" owner:self options:nil];
+    cell = loadCell;
+    self.loadCell = nil;
+  }
+  
+  return cell;
 }
 
 @end

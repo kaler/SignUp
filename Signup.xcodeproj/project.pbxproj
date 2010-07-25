@@ -16,6 +16,7 @@
 		4E023B9211FBFB8100C84EAF /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E023B9011FBFB8100C84EAF /* SignupViewController.m */; };
 		4E023B9311FBFB8100C84EAF /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E023B9111FBFB8100C84EAF /* SignupViewController.xib */; };
 		4E023BD811FC02AF00C84EAF /* TextEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E023BD711FC02AF00C84EAF /* TextEditCell.m */; };
+		4E023C3411FC055100C84EAF /* TextEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E023C3311FC055100C84EAF /* TextEditCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		4E023B9111FBFB8100C84EAF /* SignupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
 		4E023BD611FC02AF00C84EAF /* TextEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEditCell.h; sourceTree = "<group>"; };
 		4E023BD711FC02AF00C84EAF /* TextEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEditCell.m; sourceTree = "<group>"; };
+		4E023C3311FC055100C84EAF /* TextEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextEditCell.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Signup-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Signup-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 				4E023B9111FBFB8100C84EAF /* SignupViewController.xib */,
 				4E023BD611FC02AF00C84EAF /* TextEditCell.h */,
 				4E023BD711FC02AF00C84EAF /* TextEditCell.m */,
+				4E023C3311FC055100C84EAF /* TextEditCell.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				4E023B9311FBFB8100C84EAF /* SignupViewController.xib in Resources */,
+				4E023C3411FC055100C84EAF /* TextEditCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
 @interface TextEditCell : UITableViewCell {
   IBOutlet UITextField *textField;
 }
