@@ -23,6 +23,18 @@
   [super dealloc];
 }
 
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+  for (int i = 0; i < 2; ++i) {
+    TextEditCell* cell = (TextEditCell*)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:i 
+                                                                                                 inSection:0]];
+    if ([cell.textField isFirstResponder]) {
+      [cell.textField resignFirstResponder];
+      break;
+    }
+  }
+}
+
+
 #pragma mark TableViewDelegate
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView 
 {
