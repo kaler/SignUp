@@ -61,6 +61,7 @@
     self.loadCell = nil;
   }
   
+  // TODO: Refactor this initialization code into the TextEditCell class
   if (indexPath.row == 0)
   {
     cell.textField.placeholder = @"Email";
