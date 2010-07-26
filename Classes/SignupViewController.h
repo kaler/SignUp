@@ -10,7 +10,7 @@
 
 @class TextEditCell;
 
-@interface SignupViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+@interface SignupViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate> {
   IBOutlet UITableView *tableView;
   IBOutlet TextEditCell *loadCell;
 }
